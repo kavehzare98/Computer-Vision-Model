@@ -6,7 +6,7 @@ import numpy as np
 # Use VideoCapture constructor from cv2
 # 0 is used for the default camera, you can change it to a different number if you have multiple cameras
 # 1 is used for alternative camera (1/26/2024)
-cap = cv2.VideoCapture(1)  
+cap = cv2.VideoCapture(0)  
 
 # Call and store the yolov8 pretrained model
 model = YOLO("yolov8m.pt")  # Load YOLOv8 model with the specified pretrained weights
